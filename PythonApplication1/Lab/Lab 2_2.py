@@ -1,0 +1,2 @@
+##. Write an if-else statement that assigns 0 to the variable b if the variable a is less than 10. Otherwise, it 
+##should assign 99 to the variable b.a = 0b = int(input("Please enter value to variable b"))if b < 10:    a = a + 0 elif b >= 10:    a = a + 99print("a is equal to: ", a)
