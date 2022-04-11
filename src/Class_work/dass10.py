@@ -49,17 +49,10 @@ while index < 5:
     print(numbers[index])
     index += 1
     """
-
-    """
+    
 numbers = list(range(1, 98374656, 6))
 index = 0
 # len used for not go beyond given numbers 
 while index<len(numbers):
     print(numbers[index])
     index += 1
-    """
-
-
-    
- 
-   
