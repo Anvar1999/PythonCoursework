@@ -1,4 +1,4 @@
-#index of the string
+#index string
 city = 'Boston'
 index = 0
 
