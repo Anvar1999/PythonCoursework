@@ -83,7 +83,7 @@ outfile.writelines(lst1)
 outfile.close()
 """
 
-"""
+
 lst1 = ['one','two','three']
 outfile = open('myfile','w')
 
@@ -91,11 +91,12 @@ for item in lst1:
     outfile.write(item+'\n')
 
 outfile.close()
+
+
+
+
+
 """
-
-
-
-
-
 names = [['Joe', 'Kim'],['Sam','Sue'],['Kelly','Kris']]
 print(names)
+"""
