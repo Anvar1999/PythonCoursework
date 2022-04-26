@@ -10,7 +10,7 @@
 
 # Python3 program to swap elements
 # at given positions
- 
+    
 # Swap function
 
 def swapPositions(list, pos1, pos2):
