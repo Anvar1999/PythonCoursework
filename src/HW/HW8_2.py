@@ -41,6 +41,6 @@ def runConsonants(mystr, vowelSet):
 
         # You need to increment index outside of the condition
         index += 1
-    print('This string consists of ', consonants, 'consonants')
+    print('This consists of ', consonants, 'consonants')
 
 main()

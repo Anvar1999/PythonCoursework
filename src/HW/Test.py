@@ -79,3 +79,9 @@ list = list * 3
 print(list)
 """
 
+a=[1,2,3]
+b=[4,5,6]
+result=[ range(min(num1,num2), max(num1,num2)) for num1, num2 in zip(a,b)]
+
+for element in result:
+    print(*element)
