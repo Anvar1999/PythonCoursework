@@ -185,4 +185,4 @@
 
 
 
-print(set('Tuesday') & set('Wednesday'))
+
