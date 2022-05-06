@@ -1,0 +1,1 @@
+['happy', 'birthday', 'summer', 'is', 'here', 'happy', 'summer']
