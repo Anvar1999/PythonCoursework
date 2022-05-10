@@ -71,16 +71,29 @@
 #    print(first_name.lower())
 
 
-word = input('Please enter a word ')
+# word = input('Please enter a word ')
+# length = len(word)
+# first = word[0]
+# rest = word[1:]
+# final = rest + first 
+# vovels = ["a", "e", "o", "i", "u"]
 
-length = len(word)
-first = word[0]
-rest = word[1:]
-final = rest + first 
-vovels = ["a", "e", "o", "i", "u"]
+# if first not in vovels:
+#     newword = rest + first + "ay"
+# else:
+#     newword = rest + first + "way"
+# print(newword.lower())
 
-if first not in vovels:
-    newword = rest + first + "ay"
-else:
-    newword = rest + first + "way"
-print(newword.lower())
+
+
+
+
+#runtime checker cProfile
+# import cProfile
+
+# def func():
+#     for i in range(1, 10000):
+#         for j in range(1, 10000):
+#             n = 1
+
+# cProfile.run("func()")
