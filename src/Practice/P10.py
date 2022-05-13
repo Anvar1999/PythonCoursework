@@ -68,6 +68,3 @@ word = input("Enter a word: ")
 word1 = len(word)
 for x in word[word1 ::-1]:
     print(x)
-
-
-    
