@@ -129,6 +129,8 @@ import math
 #     print("This is not in the array: ")
 
 
+
+
 arr = array('f',[15.00,16.00,17.00,18.00,19.00])
 whole = int(input("Enter numbers between 2  and 5: "))
 i = True
@@ -146,7 +148,3 @@ while i == True:
 for x in arr:
     j = x / whole
     print(round(j,2))
-
-
-
-
