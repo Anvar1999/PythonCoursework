@@ -136,8 +136,3 @@ from array import *
 
 # for name in dct:
 #     print((name),dct[name]['Age'], dct[name]['Shoe size'])
-
-
-
-
- 
