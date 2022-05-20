@@ -194,13 +194,30 @@
 #     for row in file:
 #         print(row)
 #     file.close()
-
+# def deleteRec():
+    
+#     file = csv.reader(open("Salaries.csv"))
+#     x = 0
+#     tmp = []
+#     for row in file:
+#         tmp.append(row)
+#     file.close()
+#     for row in tmp:
+#         print(x,row)
+#         x = x + 1
+#     rowtodel = int(input("enter a row to delete: "))
+#     del tmp[rowtodel]
+#     file = open("Salaries.csv","w")
+#     for row in tmp:
+#         file.write(row)
+#     file.close()
 
 # again = 'y'
 # while again == 'y':
 #     print("1) Add to file")
 #     print("2) View all records")
-#     print("3) Quit program")
+#     print("3) Delete a record")
+#     print("4) Quit program")
 #     print()
 #     selection = int(input("enter a number of selection"))
 #     if selection == 1: 
@@ -208,7 +225,9 @@
 #     elif selection == 2:
 #         records()
 #     elif selection == 3:
+#         deleteRec()
+#     elif selection == 4:
 #         again = 'n'
 #     else:
 #         print("Wrong choice")
-   
+
