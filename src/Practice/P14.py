@@ -120,17 +120,17 @@ from turtle import title
 
 
 
-# start = int(input("Enter starting year: "))
-# end =  int(input("Enter ending year: "))
-# file = list(csv.reader(open("Books.csv")))
-# tmp = []
-# for row in file:
-#     tmp.append(row)
+start = int(input("Enter starting year: "))
+end =  int(input("Enter ending year: "))
+file = list(csv.reader(open("Books.csv")))
+tmp = []
+for row in file:
+    tmp.append(row)
 
-# x = 0
-# for row in tmp:
-#     if int(tmp[x][2]) >= start and int (tmp[x][2]) <= end:
-#         print(tmp[x])
-#         x = x + 1
+x = 0
+for row in tmp:
+    if int(tmp[x][2]) >= start and int (tmp[x][2]) <= end:
+        print(tmp[x])
+        x = x + 1 
 
     
